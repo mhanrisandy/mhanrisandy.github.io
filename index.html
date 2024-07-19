@@ -7,17 +7,11 @@
     <meta name="author" content="" />
     <link href="https://fonts.googleapis.com/css2?family=figtree:wght@300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
-    <title>Freelancer</title>
+    <title>Risman Arisandi</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .filter-white-to-blue {
-            filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(750%) hue-rotate(180deg);
-        }
-    </style>
-    
     <script>
         tailwind.config = {
             theme: {
@@ -29,8 +23,9 @@
             },
         };
     </script>
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-
 <body class="font-figtree bg-sky-100">
     <img src="assets/images/ellipse.svg" alt="ellipse vickyadrii" class="absolute top-0 -z-0" loading="lazy">
     <nav class="flex justify-center z-50 my-5" style="opacity: 1; top: 0px;">
@@ -45,24 +40,23 @@
     <section id="home" class="flex justify-center items-center md:my-32 md:min-h-fit min-h-screen">
         <div class="flex flex-col items-center gap-3">
             <div>
-                <div class="flex flex-col items-center" style="opacity: 1; transform: none;">
-                    <h2 class="text-sky-800 tracking-wide font-extrabold xl:text-5xl md:text-4xl text-xl">Risman Arisandi</h2>
-                    <div class="relative -z-10"><img src="/_astro/header-shape.32875466.png" loading="lazy"
-                         alt="shape header"
-                            class="absolute -z-10 md:bottom-0 bottom-1.5 xl:w-auto md:w-80 w-28">
-                        <h1
-                            class="mx-2 text-transparent bg-clip-text bg-gradient-to-r from-[#1487B9] to-[#1FC2F0] xl:text-[82px] md:text-[70px] text-[32px] font-bold">
-                           Software Engineer</h1>
+                <div class="flex flex-col items-center">
+                    <h2 class="text-sky-600 tracking-wide font-bold xl:text-5xl md:text-4xl text-xl">
+                        Risman Arisandi
+                    </h2>
+                    <div class="relative -z-10">
+                        <h1 class="mx-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-sky-300 xl:text-[82px] md:text-[70px] text-[32px] font-bold">
+                           Software Engineer
+                        </h1>
                     </div>
                 </div>
-                <p class="md:text-[24px] max-w-3xl text-center text-slate-500 md:leading-10 leading-6"
+                <p class="md:text-[24px] max-w-3xl text-center text-slate-800 md:leading-10 leading-6"
                     style="opacity: 1;">From a <span class="font-semibold">Desktop Programmer (Delphi)</span> to a web developer, passionate about building startups to provide the best solutions and innovations.</p>
             </div>
             <div>
-                <div class="flex items-center justify-center md:gap-16 gap-8 md:m-0"
-                    style="opacity: 1; transform: none;">
+                <div class="flex items-center justify-center md:gap-16 gap-8 md:m-0">
                     <a target="_blank" href="https://symak.id" class="p-3 rounded-xl saturate-0 bg-white saturate-100 shadow-lg hover:shadow-xl hover:scale-110 xl:w-[90px] xl:h-[90px] md:w-24 md:h-24 w-14 h-14 transition-all duration-200 ease-in-out cursor-pointer mt-0">
-                        <img src="assets/images/symak-dark.png" alt="logo" loading="lazy">
+                        <img src="assets/images/symak-dark.png" alt="logo" loading="lazy"> 
                     </a>
                     <a target="_blank" href="https://ecloud.id" class="p-3 rounded-xl saturate-0 bg-white saturate-100 shadow-lg hover:shadow-xl hover:scale-110 xl:w-[90px] xl:h-[90px] md:w-24 md:h-24 w-14 h-14 transition-all duration-200 ease-in-out cursor-pointer md:mt-20 mt-12">
                         <img src="assets/images/ecloud-dark.png" alt="logo" loading="lazy">
@@ -77,5 +71,12 @@
             </div>
         </div>
     </section>
+    <section id="projects" class="min-h-screen">
+
+    </section>
+    <section id="experience" class="min-h-screen"></section>
+    <section id="contact" class="min-h-screen"></section>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 </html>
